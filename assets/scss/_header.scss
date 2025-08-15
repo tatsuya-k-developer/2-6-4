@@ -1,0 +1,21 @@
+@use 'variables';
+
+header {
+    height: 60px;
+    background-color: v.$primary-color;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        margin: 0;
+        padding: 0;
+
+        li { cursor: pointer; }
+    }
+}
